@@ -1,4 +1,5 @@
 use nalgebra as na;
+
 /// Extension trait for nalgebra Vectors for types that implement `PartialOrd`
 pub trait VecExtPartialOrd {
     /// Returns true if all of the components of `self` are less than the respective components of
